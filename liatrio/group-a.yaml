@@ -11,7 +11,9 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: ramcguire
+  name: ryan.mcguire
+  annotations:
+    github.com/user-login: ramcguire
 spec:
   profile:
     displayName: Ryan M
