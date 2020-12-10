@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: liatrio-components
+  description: Collection of components
+spec:
+  type: github
+  targets:
+    - https://github.com/ramcguire/gratibot-2/blob/master/catalog-info.yaml

@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-a
+  description: Team A
+spec:
+  type: team
+  parent: liatrio
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ramcguire
+spec:
+  profile:
+    displayName: Ryan M
+    email: ryanm@liatrio.com
+  memberOf: [team-a]
